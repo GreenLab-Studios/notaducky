@@ -1,4 +1,9 @@
+Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+
 do
-Set WshShell = CreateObject("WScript.Shell")
-WshShell.SendKeys(chr(&hAF))
+    DoEvents
+    DoEvents
+    Sleep(2000)
+    Set WshShell = CreateObject("WScript.Shell")
+    WshShell.SendKeys(chr(&hAF))
 loop
